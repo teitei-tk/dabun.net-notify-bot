@@ -9,7 +9,13 @@
   "scripts": {
     "precommit": "lint-staged",
     "build": "tsc",
-    "lint": "eslint 'src/**/*'"
+    "lint": "eslint 'src/**/*'",
+    "functions:start": "functions start",
+    "functions:stop": "functions stop",
+    "functions:deploy": "sh ./scripts/deploy.sh",
+    "functions:call": "functions call",
+    "functions:log": "functions logs",
+    "functions:log:read": "yarn functions:log read"
   },
   "dependencies": {
     "puppeteer": "^1.13.0",

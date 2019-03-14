@@ -2,7 +2,7 @@
   "compilerOptions": {
     "pretty": true,
     "declaration": true,
-    "lib": ["esnext"],
+    "lib": ["esnext", "dom"],
     "moduleResolution": "node",
     "target": "es5",
     "outDir": "build"
