@@ -1,0 +1,12 @@
+{
+  "compilerOptions": {
+    "pretty": true,
+    "declaration": true,
+    "lib": ["esnext"],
+    "moduleResolution": "node",
+    "target": "es5",
+    "outDir": "build"
+  },
+  "include": ["./src/**/*"],
+  "exclude": ["**/*.spec.ts", "node_modules"]
+}
